@@ -14,13 +14,13 @@ this.likes = likes
 };
 
 
-var Jackie = new Person ('Jackie',  '"I am glad we are all here"', 'assets/images/jackie.jpeg', 0);
+var Jackie = new Person ('Jackie',  '"The gang\'s\ all here!"', 'assets/images/jackie.jpeg', 0);
 
 var Patrick = new Person ('Patrick', '"Where is Connor?"', 'assets/images/Pat.png', 0);
 
-var Kelly = new Person ('Kelly', '"Who cares?"', 'assets/images/kelly.jpeg', 0);
+var Kelly = new Person ('Kelly', '"He\'s\ here somewhere..."', 'assets/images/kelly.jpeg', 0);
 
-var Connor = new Person  ('Connor', '"I hate you." - My mom', 'assets/images/CONNOR.jpg', 0);
+var Connor = new Person  ('Connor', '"Now the gang\'s\ all here!"', 'assets/images/CONNOR.jpg', 0);
 
 
 var peopleArray = [Jackie, Patrick, Kelly, Connor];

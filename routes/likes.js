@@ -16,7 +16,7 @@ peopleLike.Jackie++;
 
 
 router.post('/Patrick', function (req, res) {
-peopleLike.Patrick += 100;
+peopleLike.Patrick++;
 res.send (peopleLike);
 
 });
@@ -28,7 +28,7 @@ res.send (peopleLike);
 });
 
 router.post('/Connor', function (req, res) {
-peopleLike.Connor--;
+peopleLike.Connor++;
 res.send (peopleLike);
 
 });
